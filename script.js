@@ -1,2 +1,3 @@
-// Automatically updates the copyright year.
-document.getElementById("year").textContent = new Date().getFullYear();
+// Keep the copyright year current without requiring manual edits.
+const yearElement = document.getElementById("year");
+if (yearElement) yearElement.textContent = new Date().getFullYear();
